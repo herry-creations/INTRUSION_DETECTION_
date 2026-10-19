@@ -12,13 +12,21 @@ This project was developed as a final project for information security coursewor
 Features ✨
 
 Modern dark-themed GUI 🌙
+
 Real-time packet sniffing using Scapy 📡
+
 Friendly interface selection for Windows adapters 🖧
+
 Automatic mapping of Windows NPF devices to readable names 🪟
+
 Live alert dashboard 📊
+
 Uptime counter ⏱️
+
 Save logs to JSON 💾
+
 Custom app icon support 🖼️
+
 Tech Stack 🛠️
 
 Python 3.14+
@@ -31,14 +39,22 @@ How It Works ⚙️
 Intrudex monitors selected network traffic and applies simple detection rules:
 
 SYN packets are flagged as potential scan activity ⚠️
+
 SSH traffic is highlighted 🔒
+
 HTTP/HTTPS traffic is tracked 🌐
+
 All captured alerts are shown in real time and can be saved to a JSON file 📝
+
 Installation 📦
 
+
 Install dependencies
+
 pip install customtkinter scapy pyinstaller
+
 Install Npcap Scapy on Windows requires Npcap for packet capture.
+
 Download and install Npcap, then restart your system.
 
 Running the Project 🚀
@@ -49,17 +65,25 @@ python ids.py
 Build EXE with PyInstaller
 
 pyinstaller --onefile --noconsole --name Intrudex --icon=intrudex.ico --add-data "intrudex.ico;." ids.py
+
 The final executable will be created inside the dist folder.
 
 Usage 🧭
 
 Open the application.
+
 Select the correct network interface from the dropdown.
+
 Click Start Monitoring.
+
 Generate traffic on your network.
+
 View live alerts in the log panel.
+
 Click Stop Monitoring when finished.
+
 Save logs using the save button or Ctrl+S.
+
 Project Structure 🗂️
 
 .
