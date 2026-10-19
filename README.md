@@ -36,9 +36,6 @@ HTTP/HTTPS traffic is tracked 🌐
 All captured alerts are shown in real time and can be saved to a JSON file 📝
 Installation 📦
 
-Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
 Install dependencies
 pip install customtkinter scapy pyinstaller
 Install Npcap Scapy on Windows requires Npcap for packet capture.
