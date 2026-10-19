@@ -1,5 +1,6 @@
 # INTRUSION_DETECTION_
 A professional desktop IDS built with Python, CustomTkinter, and Scapy for real-time packet monitoring and alerting.  Intrudex 🔐
+
 A professional Python-based Intrusion Detection System (IDS) with a modern GUI, real-time packet monitoring, interface selection, and log export support.
 
 Overview 📌
